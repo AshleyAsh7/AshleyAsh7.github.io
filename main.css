@@ -1,0 +1,98 @@
+body{
+    background-image:url("assets/BACKGROUND\ IMAGE\ .svg");
+    background-size:100%;
+}
+.front-card{
+    width:350px;
+    height: 612px;
+    margin: 0 auto;
+    background-color:white;
+    margin-bottom: 70px;
+    box-shadow: 2px 5px 15px 0px black;
+    background-image:url("assets/LOGO\ FOR\ BUSINESS\ CARD\ .svg");
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position-y: center;
+    background-position-x: center;
+}
+.front-card:hover{
+    width:350px;
+    height: 612px;
+    margin: 0 auto;
+    background-color:white;
+    margin-bottom: 70px;
+    box-shadow: 2px 5px 15px 0px black;
+}
+.name{
+    font-family: 'MightyDiteyNF';
+    letter-spacing:2px;
+    line-height:5%;
+    display: grid;
+    margin-left:40px;
+    padding: 10px;
+    font-size: 25px;
+}
+.title{
+    font-family: 'MightyDiteyNF';
+    display: grid;
+    margin-left:70px;
+    position: relative;
+    bottom: 50px;
+    padding: 10px;
+    font-size:20px;
+}
+.secondary{
+    font-family: 'MightyDiteyNF';
+    position:relative;
+    top:55%;
+    display:grid;
+    margin-left: 50px;
+    padding: 10px;
+    font-size: 20px;
+}
+.back-card{
+    width:350px;
+    height: 612px;
+    margin: 0 auto;
+    background-color:white;
+    box-shadow: 2px 5px 15px 0px black;
+    background-image:url("assets/LOGO\ BUSINESS\ CARD\ BACKGROUND.svg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    position: relative;
+    background-position-x: center;
+    background-position-y: center;
+    
+}
+.text{
+    font-family: 'existencelight';
+    display: grid;
+    position:relative;
+    bottom:15%;
+    left: 15%;
+    margin-left: 50px;
+    margin-bottom: 90%;
+    font-size: 12px;
+}
+.icon-container{
+    display:grid;
+    width:12%;
+    margin-top: 3px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 50px;
+    margin-top: 90%;
+}
+@font-face {
+    font-family: 'MightyDiteyNF';
+    src: url('assets/fonts/mightyditeynf_regular_macroman/MightyDiteyNF-webfont.woff2') format('woff2'),
+         url('assets/fonts/mightyditeynf_regular_macroman/MightyDiteyNF-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'existencelight';
+    src: url("assets/fonts/existence_light_macroman/Existence-Light-webfont.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
